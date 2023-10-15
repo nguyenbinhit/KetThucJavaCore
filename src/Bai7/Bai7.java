@@ -30,9 +30,9 @@ public class Bai7 {
 
 		timGiaTriLonNhat(arr);
 
-		timKiemPhanTuX(arr);
-
 		sapXepTangDan(arr);
+		
+		timKiemPhanTuX(arr);
 		
 		sc.close();
 	}
