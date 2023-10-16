@@ -8,12 +8,15 @@ public class Bai2 {
 
         System.out.print("Nhập số thứ nhất: ");
         float a1 = sc.nextFloat();
+	sc.nextLine();
 
         System.out.print("Nhập số thứ hai: ");
         float a2 = sc.nextFloat();
+	sc.nextLine();
 
         System.out.print("Nhập số thứ ba: ");
         float a3 = sc.nextFloat();
+	sc.nextLine();
         
         // Tính trung bình cộng
         float tbc = tinhTrungBinhCong(a1, a2, a3);
