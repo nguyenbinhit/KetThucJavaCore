@@ -18,7 +18,7 @@ public class Bai6 {
 			index = s1.indexOf(s2, index);
 			if (index != -1) {
 				count++;
-				index += s2.length();
+				index += 1;
 			}
 		}
 
